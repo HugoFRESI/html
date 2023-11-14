@@ -1,53 +1,38 @@
-#hugofresi h1 {
-  color: #daa500;
-}
-a:link 
-{
+a:link {
   color: #000000;
-{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins' , sans-serif;
+  font-family: "poppins", sans-serif;
 }
-body
-{
-  background: lightblue;
+
+body {
+  background: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
-  align-items: center
-;min-height: 100vh;
+  align-items: center;
+  min-height: 100vh;
 }
-.contrainer
-{position: relative;
- width: 100%;
- max-width: 1000px;
- background: #fff;
- display: grid;
- grid-template-columns: 1fr 2fr;
- box-shadow: 0 35px 55px rgba(0 0 0 0 0.1)
- 
+
+.contrainer {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 2500px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
-.contrainer .left_side
-{
-position: relative;
-background: #003147;
-padding: 40px;
-}.contrainer .right_side
-{
+
+.contrainer .left_side {
   position: relative;
   background: #003147;
   padding: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.contrainer .right_side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
